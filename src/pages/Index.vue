@@ -115,7 +115,7 @@ export default({
 					'Content-type': 'application/x-www-form-urlencoded'
 				},
 				body: this.encode({
-					'form-name': 'list of clicks',
+					'form-name': 'list_of_clicks',
 					...this.form
 				})
 			})
