@@ -6,7 +6,7 @@
     <div class="container_form">
 
     	<div class="text-bold font-poppins-bold font_sizing q-mb-lg" v-if="name_submits == true">
-    		 SURVEY LANG PO ITO
+    		 SURVEY
     	</div>
 	    	<div class="font-poppins-bold" v-if="name_submits == true">
 	    		
@@ -23,14 +23,14 @@
 
 
     	<div class="text-bold font-poppins-bold font_sizing q-mb-xl" v-if="survey == true">
-    		 MAY GUSTO KA SAKIN NOH?
+    		 DO YOU LIKE ME?
     	</div>
     	<div class="row font-poppins-bold">
 	    	<div class="col-6" v-if="survey == true">
-	    		<q-btn no-caps label="Oo" type="submit" class="btns" @click="click_oo()"  />
+	    		<q-btn no-caps label="YES" type="submit" class="btns" @click="click_oo()"  />
 	    	</div>
 	    	<div class="col-6 text-right" :class="survey != true ? 'visibility: hidden' : 'visibility: visible'">
-	    		<q-btn no-caps label="Wala" class="btns"  id="btn_test" />
+	    		<q-btn no-caps label="NO!!" class="btns"  id="btn_test" />
 	    	</div>
 
 	    	<!-- hidden -->
@@ -43,10 +43,10 @@
 
 
 	    <div v-if="word_reveal == true" class="text-bold font-poppins-bold font_sizing_reveal">
-    		YIEEE KELEG KELEG AKO BHIE AYAN HAAAA
+    		I LIKE YOU TOO!!!!
     	</div>
     	<div v-if="word_reveal == true" class="text-bold font-poppins-bold font_sizing_reveal">
-    		MWAH MWA HAHSHASHASHASH
+    		MWAAAAAAAA!
     	</div>
     </div>
 </form>
